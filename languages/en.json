@@ -1,0 +1,17 @@
+{
+    "profile": {
+        "rol": "Front-end developer",
+        "description": "As a systems engineer, I pride myself on my ability to address different challenges in information technology and my constant commitment to learning and continuous improvement. My training ranges from software design, database management to the implementation of secure and scalable systems. I excel at problem solving and effective communication."
+    },
+    "experience": {
+        "first-job-title": "Back-end developer",
+        "first-job-dates": "Ene 1995 - Ene 2000",
+        "first-job-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptatibus quam veniam numquam. Aliquid dignissimos necessitatibus molestiae, corrupti quas harum ut quidem illo officia! Neque doloribus esse commodi iusto molestiae!",
+        "second-job-title": "Front-end developer",
+        "second-job-dates": "Feb 2000 - Mar 2005",
+        "second-job-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptatibus quam veniam numquam. Aliquid dignissimos necessitatibus molestiae, corrupti quas harum ut quidem illo officia! Neque doloribus esse commodi iusto molestiae!",
+        "last-job-title": "Front-end developer",
+        "last-job-dates": "Ene 2017 - Actualmente",
+        "last-job-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptatibus quam veniam numquam. Aliquid dignissimos necessitatibus molestiae, corrupti quas harum ut quidem illo officia! Neque doloribus esse commodi iusto molestiae!"
+    }
+}

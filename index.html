@@ -4,10 +4,246 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/styles.css" />
     <title>Portfolio</title>
   </head>
-  <body>
+  <body class="dark">
+    <header class="header">
+      <div class="switches">
+        <div id="toggle-theme" class="toggle-theme">
+          <img 
+              id="toggle-icon" 
+              src="assets/icons/moon.svg" 
+              alt="icon theme"
+              class="toggle-theme_icon"
+              >
+          <p id="toggle-text" 
+          class="toggle-theme_text">Dark Mode</p>
+        </div>
+      </div>
+      <div class="flags" id="flags">
+          <div class="flags_item" data-language="es">
+            <img src="assets//icons//es.svg" class="flags_img" alt="">
+          </div>
+          <div class="flags_item" data-language="en">
+            <img src="assets//icons//gb.svg" class="flags_img" alt="">
+          </div>
+      </div>
+      <div id="toggle-colors" class="colors">
+        <div data-color="hsl(214, 84%, 56%)" class="colors_item colors_item--blue"></div>
+        <div data-color="hsl(150, 84%, 56%)" class="colors_item colors_item--green"></div>
+        <div data-color="hsl(276, 84%, 56%)" class="colors_item colors_item--purple"></div>
+        <div data-color="hsl(46, 84%, 56%)" class="colors_item colors_item--orange"></div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="column column--left">
+        <!-- Profile card -->
+        <article class="card card--profile">
+          <div class="card_image-container">
+            <img src="assets/images//foto-sf.png" alt="">
+          </div>
+          <div class="card_header">
+            <h2 class="card_title no-margin">Ingeniero de sistemas</h2>
+            <p class="card_subtitle" data-section="profile" data-value="rol">Front end developer</p>
+          </div>
+          <div class="card_body">
+            <div class="card_link">
+              <i class="fa fa-envelope icon"></i>
+              <a href="carlos.cfr37@gmail.com">carlos.cfr37@gmail.com</a>
+            </div>
+            <div class="card_link">
+              <i class="fa fa-phone icon"></i>
+              <a href="tel:996056880">+51-996056880</a>
+            </div>
+            <p class="card_text" data-section="profile" data-value="description">
+              Como ingeniero de sistemas, me enorgullece mi capacidad para enfrentar diferentes desafíos en tecnología de la información y mi compromiso constante con el aprendizaje y la mejora continua. Mi formación abarca desde el diseño de software, la gestión de bases de datos hasta la implementación de sistemas seguros y escalables. Me destaco en la resolución de problemas y la comunicación efectiva.
+            </p>
+          </div>
+        </article>
+        <article class="card card--experience">
+          <h2 class="card_title">Experiencies</h2>
+          <div class="experience">
+            <img src="assets/images/logo.png" alt="logo" class="experience_image">
+            <div class="experience_info">
+              <p class="experience_time" data-section="experience" data-value="first-job-dates">
+                Feb 2017 - Current 
+              </p>
+              <h3 class="experience_job" data-section="experience" data-value="first-job-title">Front end developer</h3>
+              <p class="experience_description" data-section="experience" data-value="first-job-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptatibus quam veniam numquam. Aliquid dignissimos necessitatibus molestiae, corrupti quas harum ut quidem illo officia! Neque doloribus esse commodi iusto molestiae!
+              </p>
+            </div>
+          </div>
+          <div class="experience">
+            <img src="assets/images/logo.png" alt="logo" class="experience_image">
+            <div class="experience_info">
+              <p class="experience_time" data-section="experience" data-value="second-job-dates">
+                Feb 2017 - Current 
+              </p>
+              <h3 class="experience_job" data-section="experience" data-value="second-job-title">Front end developer</h3>
+              <p class="experience_description" data-section="experience" data-value="second-job-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptatibus quam veniam numquam. Aliquid dignissimos necessitatibus molestiae, corrupti quas harum ut quidem illo officia! Neque doloribus esse commodi iusto molestiae!
+              </p>
+            </div>
+          </div>
+          <div class="experience">
+            <img src="assets/images/logo.png" alt="logo" class="experience_image">
+            <div class="experience_info">
+              <p class="experience_time" data-section="experience" data-value="last-job-dates">
+                Feb 2017 - Current 
+              </p>
+              <h3 class="experience_job" data-section="experience" data-value="last-job-title">Front end developer</h3>
+              <p class="experience_description" data-section="experience" data-value="last-job-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptatibus quam veniam numquam. Aliquid dignissimos necessitatibus molestiae, corrupti quas harum ut quidem illo officia! Neque doloribus esse commodi iusto molestiae!
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="card card--hobbies">
+          <h2 class="card_title">Hobbies</h2>
+          <div class="card_image--container">
+            <img src="assets/images/hobbie.jpg" alt="Man on a Bike">
+          </div>
+          <h3 class="hobbie_title">Biking</h3>
+          <p class="card_text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione illo voluptate reiciendis doloremque, cum quas error inventore facilis eaque aliquid rerum sint recusandae laudantium debitis earum ullam consequatur ab impedit.
+          </p>
+        </article>
+      </section>
+      <section class="column column-right">
+        <article class="card">
+          <h2 class="card_title">Front end</h2>
+          <small>Años de experiencia</small>
+          <div class="skills">
+            <div class="skills_header">
+              <span class="skills_start-level">0</span>
+              <span class="skills_start-level">3</span>
+            </div>
+            <div class="skills_item">
+              <p class="skills_tech">HTML</p>
+              <div class="skills_bar skills_bar--70"></div>
+            </div>
+            <div class="skills_item">
+              <p class="skills_tech">CSS</p>
+              <div class="skills_bar skills_bar--70"></div>
+            </div>
+            <div class="skills_item">
+              <p class="skills_tech">JAVASCRIPT</p>
+              <div class="skills_bar skills_bar--30"></div>
+            </div>
+          </div>
+          <div></div>
+        </article>
+        <article class="card">
+          <h2 class="card_title">Back end</h2>
+          <small>Años de experiencia</small>
+          <div class="skills">
+            <div class="skills_header">
+              <span class="skills_start-level">0</span>
+              <span class="skills_start-level">3</span>
+            </div>
+            <div class="skills_item">
+              <p class="skills_tech">JAVA</p>
+              <div class="skills_bar skills_bar--30"></div>
+            </div>
+            <div class="skills_item">
+              <p class="skills_tech">SPRINGBOOT</p>
+              <div class="skills_bar skills_bar--30"></div>
+            </div>
+            <div class="skills_item">
+              <p class="skills_tech">PHP</p>
+              <div class="skills_bar skills_bar--70"></div>
+            </div>
+          </div>
+          <div></div>
+        </article>
+        <article class="card">
+          <h2 class="card_title">Base de datos</h2>
+          <small>Años de experiencia</small>
+          <div class="skills">
+            <div class="skills_header">
+              <span class="skills_start-level">0</span>
+              <span class="skills_start-level">3</span>
+            </div>
+            <div class="skills_item">
+              <p class="skills_tech">SQL SERVER</p>
+              <div class="skills_bar skills_bar--70"></div>
+            </div>
+            <div class="skills_item">
+              <p class="skills_tech">MYSQL</p>
+              <div class="skills_bar skills_bar--70"></div>
+            </div>
+            <div class="skills_item">
+              <p class="skills_tech">POSTGRESQL</p>
+              <div class="skills_bar skills_bar--30"></div>
+            </div>
+          </div>
+          <div></div>
+        </article>
+        <article class="card card--project">
+          <div class="card_image-container">
+            <img src="assets/images/project.jpg" alt="Landing page" class="card_image">
+          </div>
+          <div class="project">
+            <div class="project_tags">
+              <span class="project_tag">#HTML</span>
+              <span class="project_tag">#CSS</span>
+              <span class="project_tag">#JAVASCRIPT</span>
+              <span class="project_tag">#RESPONSIVE</span>
+            </div>
+            <div class="card_title">Landing page</div>
+            <p class="card_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, illum aliquam placeat at molestiae laboriosam alias modi voluptatem sapiente quod aliquid soluta. Exercitationem nulla iure ratione ea illum consequatur dolorem!</p>
+            <p class="card_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, illum aliquam placeat at molestiae laboriosam alias modi voluptatem sapiente quod aliquid soluta. Exercitationem nulla iure ratione ea illum consequatur dolorem!</p>
+            <div class="buttons">
+              <a href="#" class="button button--primary">Demo</a>
+              <a href="#" class="button button--ghost">Code</a>
+            </div>
+          </div>
+        </article>
+        <article class="card card--project">
+          <div class="card_image-container">
+            <img src="assets/images/project.jpg" alt="Landing page" class="card_image">
+          </div>
+          <div class="project">
+            <div class="project_tags">
+              <span class="project_tag">#HTML</span>
+              <span class="project_tag">#CSS</span>
+              <span class="project_tag">#JAVASCRIPT</span>
+              <span class="project_tag">#RESPONSIVE</span>
+            </div>
+            <div class="card_title">Landing page</div>
+            <p class="card_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, illum aliquam placeat at molestiae laboriosam alias modi voluptatem sapiente quod aliquid soluta. Exercitationem nulla iure ratione ea illum consequatur dolorem!</p>
+            <p class="card_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, illum aliquam placeat at molestiae laboriosam alias modi voluptatem sapiente quod aliquid soluta. Exercitationem nulla iure ratione ea illum consequatur dolorem!</p>
+            <div class="buttons">
+              <a href="#" class="button button--primary">Demo</a>
+              <a href="#" class="button button--ghost">Code</a>
+            </div>
+          </div>
+        </article>
+        <article class="card card--project">
+          <div class="card_image-container">
+            <img src="assets/images/project.jpg" alt="Landing page" class="card_image">
+          </div>
+          <div class="project">
+            <div class="project_tags">
+              <span class="project_tag">#HTML</span>
+              <span class="project_tag">#CSS</span>
+              <span class="project_tag">#JAVASCRIPT</span>
+              <span class="project_tag">#RESPONSIVE</span>
+            </div>
+            <div class="card_title">Landing page</div>
+            <p class="card_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, illum aliquam placeat at molestiae laboriosam alias modi voluptatem sapiente quod aliquid soluta. Exercitationem nulla iure ratione ea illum consequatur dolorem!</p>
+            <p class="card_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, illum aliquam placeat at molestiae laboriosam alias modi voluptatem sapiente quod aliquid soluta. Exercitationem nulla iure ratione ea illum consequatur dolorem!</p>
+            <div class="buttons">
+              <a href="#" class="button button--primary">Demo</a>
+              <a href="#" class="button button--ghost">Code</a>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
     <script src="js/scripts.js"></script>
   </body>
 </html>
