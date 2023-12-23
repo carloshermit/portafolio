@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Portfolio</title>
   </head>
   <body class="dark">
@@ -34,8 +34,8 @@
     <main class="main">
       <section class="column column--left">
         <article class="card card--profile">
-          <div class="card_image-container">
-            <img src="assets/images//foto-sf.png" alt="">
+          <div class="card-image-container">
+            <img class="img-perfil" src="assets/images//foto-sf.png" alt="">
           </div>
           <div class="card_header">
             <h2 class="card_title no-margin">Ingeniero de sistemas</h2>
@@ -57,8 +57,8 @@
         </article>
         <article class="card card--hobbies">
           <h2 class="card_title">Hobbies</h2>
-          <div class="card_image--container">
-            <img src="assets/images/hobbies.webp" alt="Man on a Bike">
+          <div class="card-image-container">
+            <img class="img-hobbie" src="assets/images/hobbies.webp" alt="Man on a Bike">
           </div>
           <h3 class="hobbie_title">Videojuegos y Fútbol</h3>
           <p class="card_text">
@@ -145,19 +145,21 @@
           </div>
           <div></div>
         </article>
+
         <article class="card card--project">
-          <div class="card_image-container">
+          <div class="card-image-container">
             <img src="assets/images/api-java.PNG" alt="Landing page" class="card_image">
           </div>
           <div class="project">
-            <div class="project_tags">
-              <span class="project_tag">#JAVA</span>
-              <span class="project_tag">#SPRINGBOOT</span>
-              <span class="project_tag">#MYSQL</span>
-              <span class="project_tag">#SPRINGDATAJPA</span>
-              <span class="project_tag">#AWS</span>
+            <div class="project-tags">
+              <span class="project-tag">#JAVA</span>
+              <span class="project-tag">#SPRINGBOOT</span>
+              <span class="project-tag">#MYSQL</span>
+              <span class="project-tag">#SPRINGDATAJPA</span>
+              <span class="project-tag">#AWS</span>
             </div>
             <div class="card_title">API EN JAVA SPRING BOOT</div>
+            <div>
             <p class="card_text">Api REST creada en java spring boot donde aprendí el manejo de los metodos get, post, put y delete. Además el uso de spring data JPA usando la base de datos MySQL.</p>
             <p class="card_text">Esta aplicación permite registrar, listar, actualizar, y eliminar productos. Así como seleccionar su respectiva categoria y unidad.</p>
             <p class="card_text">El proyecto está desplegado en amazon web services(AWS) en Elastic Beanstalk, y la base de datos en AWS RDS.</p>
@@ -168,15 +170,15 @@
           </div>
         </article>
         <article class="card card--project">
-          <div class="card_image-container">
+          <div class="card-image-container">
             <img src="assets/images/front-crud-angular.PNG" alt="Landing page" class="card_image">
           </div>
           <div class="project">
-            <div class="project_tags">
-              <span class="project_tag">#ANGULAR</span>
-              <span class="project_tag">#BOOTSRTAP</span>
-              <span class="project_tag">#TYPESCRIPT</span>
-              <span class="project_tag">#RESPONSIVE</span>
+            <div class="project-tags">
+              <span class="project-tag">#ANGULAR</span>
+              <span class="project-tag">#BOOTSRTAP</span>
+              <span class="project-tag">#TYPESCRIPT</span>
+              <span class="project-tag">#RESPONSIVE</span>
             </div>
             <div class="card_title">FRONT END EN ANGULAR</div>
             <p class="card_text">Proyecto creado en angular y con boostrap en el cual aprendí el uso de componentes, los servicios y las rutas, el uso de HttpClient y Router y traer los datos de mi API creada en Spring Boot</p>
@@ -189,18 +191,18 @@
           </div>
         </article>
         <article class="card card--project">
-          <div class="card_image-container">
+          <div class="card-image-container">
             <img src="assets/images/portafolio-page2.PNG" alt="Landing page" class="card_image">
           </div>
           <div class="project">
-            <div class="project_tags">
-              <span class="project_tag">#HTML</span>
-              <span class="project_tag">#CSS</span>
-              <span class="project_tag">#JAVASCRIPT</span>
-              <span class="project_tag">#RESPONSIVE</span>
+            <div class="project-tags">
+              <span class="project-tag">#HTML</span>
+              <span class="project-tag">#CSS</span>
+              <span class="project-tag">#JAVASCRIPT</span>
+              <span class="project-tag">#RESPONSIVE</span>
             </div>
             <div class="card_title">Mi portafolio</div>
-            <p class="card_text">En la creación de mi portafolio reforce mis conocimientos en html, css y java script, con la creación de tema oscuro, transicion para el cambio de color y media querys para adaptar el contenido a cualquier dispositivo.</p>
+            <p class="card_text">En la creación de mi portafolio reforcé mis conocimientos en html, css y javascript, con la creación de tema oscuro, el uso de display flex, display grid y media querys para adaptar el contenido a cualquier dispositivo.</p>
             <div class="buttons">
               <a href="https://carloshermit.github.io/portafolio/" target="_blank" class="button button--primary">Demo</a>
               <a href="https://github.com/carloshermit/portafolio" target="_blank" class="button button--ghost">Code</a>
